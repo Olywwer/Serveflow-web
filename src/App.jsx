@@ -89,11 +89,11 @@ function AppRoutes() {
 
 function App() {
   return (
-    <HashRouter>  
+    <BrowserRouter>
       <AuthProvider>
         <AppRoutes />
       </AuthProvider>
-    </HashRouter>
+    </BrowserRouter>
   );
 }
 
